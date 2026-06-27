@@ -1,0 +1,52 @@
+# Private inputs and AI-assisted workspace
+.input/
+workspace-local/
+.ai-workbench/
+.codex-scratch/
+.agent-scratch/
+prompts/
+drafts/
+scratch/
+worklog/
+evidence/private/
+*.session
+*.transcript
+*humanizer*
+ALL_text_humanizer.pdf
+humanizer_SKILL.md
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.kubeconfig
+kubeconfig
+credentials.json
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+reports/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

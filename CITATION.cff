@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: LLM Inference Stack Evaluator
+message: If this repository helps your evaluation, cite the repository and the primary sources for vLLM, SGLang, and TensorRT-LLM.
+type: software
+authors:
+  - name: Repository maintainers
+version: 0.1.0
+date-released: 2026-06-24
+license: MIT

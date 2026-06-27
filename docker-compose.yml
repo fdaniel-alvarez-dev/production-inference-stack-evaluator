@@ -1,0 +1,6 @@
+services:
+  evaluator:
+    build: .
+    command: ["evaluate", "--metrics", "examples/minimal/metrics.csv", "--weights", "examples/minimal/weights.json", "--out", "reports/minimal_report.md"]
+    volumes:
+      - ./reports:/app/reports

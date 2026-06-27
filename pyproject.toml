@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-inference-stack-evaluator"
+version = "0.1.0"
+description = "CSV-based scorecard helper for evaluating vLLM, SGLang, and TensorRT-LLM production inference fit."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Repository maintainers" }]
+keywords = ["llm", "inference", "benchmarking", "vllm", "sglang", "tensorrt-llm"]
+dependencies = []
+
+[project.scripts]
+inference-stack-eval = "inference_stack_eval.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

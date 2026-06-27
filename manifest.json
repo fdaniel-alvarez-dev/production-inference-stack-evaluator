@@ -1,0 +1,25 @@
+{
+  "article_id": "article_01",
+  "repo_name": "article_01_inference_stack_evaluator",
+  "public_repository_path": "github_ready_repositories/article_01_inference_stack_evaluator",
+  "generated_files": [
+    "ARTICLE.md",
+    "EDITORIAL_BRIEF.md",
+    "QUALITY_CHECKLIST.md",
+    "HUMANIZATION_NOTES.md",
+    "docs/research_notes.md",
+    "docs/structure.md",
+    "docs/assumptions.md",
+    "scripts/validate_repo.py",
+    "assets/diagrams/diagram_briefs.md"
+  ],
+  "assumptions": [
+    "No private production evidence was provided.",
+    "External documentation should be rechecked before publication because APIs and pricing change."
+  ],
+  "validation_status": "PASS_WITH_NOTES",
+  "github_ready": true,
+  "notes": [
+    "Public repository excludes raw source instructions and private build materials."
+  ]
+}

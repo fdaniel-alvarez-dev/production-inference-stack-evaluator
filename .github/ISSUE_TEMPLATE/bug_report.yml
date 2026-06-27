@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducibility or scoring problem.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include stack versions, model, hardware, metric file shape, and command used.
